@@ -1,0 +1,21 @@
+language: php
+
+notifications:
+  email:
+    recipients:
+      - daniel@honestempire.com
+
+php:
+  - 7.1
+
+before_install:
+  - phpenv config-rm xdebug.ini || true
+
+before_script:
+  - echo -e "Host github.com\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
+  - composer update
+
+script:
+  - vendor/bin/phpspec run --format=dot
+
+sudo: false
