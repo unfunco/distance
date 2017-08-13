@@ -1,0 +1,4 @@
+suites:
+  distance_suite:
+    namespace: Honest\Distance
+    psr4_prefix: Honest\Distance

@@ -1,0 +1,25 @@
+{
+    "name": "honest/distance",
+    "description": "Library for calculating the distance between two points.",
+    "license": "ISC",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Daniel Morris",
+            "email": "daniel@honestempire.com",
+            "homepage": "https://unfun.co",
+            "role": "Programmer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Honest\\Distance\\": "src/"
+        }
+    },
+    "require": {
+        "php-64bit": ">=7.1,<8"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "^4.0"
+    }
+}
