@@ -1,1 +1,2 @@
 composer_suite_detection: true
+formatter.name: pretty
