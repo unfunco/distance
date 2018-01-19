@@ -20,6 +20,6 @@
         "php-64bit": ">=7.1,<8"
     },
     "require-dev": {
-        "phpspec/phpspec": "^4.0"
+        "phpspec/phpspec": "^4.3"
     }
 }

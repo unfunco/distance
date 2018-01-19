@@ -1,4 +1,1 @@
-suites:
-  distance_suite:
-    namespace: Honest\Distance
-    psr4_prefix: Honest\Distance
+composer_suite_detection: true
